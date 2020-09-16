@@ -1,0 +1,26 @@
+{
+  "name": "blanc-manger-coco",
+  "version": "0.0.1",
+  "description": "An online implementation of the famous eponym game",
+  "main": "src/index.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "start": "npm run build && node dist/index",
+    "watch": "",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuget/blanc-manger-coco.git"
+  },
+  "author": "Jérémy Buget",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jbuget/blanc-manger-coco/issues"
+  },
+  "homepage": "https://github.com/jbuget/blanc-manger-coco#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}
